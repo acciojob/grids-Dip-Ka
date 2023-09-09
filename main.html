@@ -1,16 +1,69 @@
-<!DOCTYPE html>
-
+ <!DOCTYPE html>
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS link (assuming Bootstrap v4 is used) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container" style="border: 5px solid rgb(4, 255, 4); background-color: rgb(41, 0, 0);">
+        <!-- Row 1 -->
+        <div class="row">
+            <!-- Medium screen layout for Row 1 -->
+            <div class="col-md-4" style="border: 2px dotted rgb(38, 38, 43); background-color: teal;">
+                <!-- Column 1 -->
+            </div>
+            <div class="col-md-8" style="border: 2px dotted rgb(38, 38, 43); background-color: thistle;">
+                <!-- Column 2 -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- Small screen layout for Row 1 -->
+            <div class="col-sm-6" style="border: 2px dotted rgb(38, 38, 43); background-color: teal;">
+                <!-- Column 1 -->
+            </div>
+            <div class="col-sm-6" style="border: 2px dotted rgb(38, 38, 43); background-color: thistle;">
+                <!-- Column 2 -->
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+            <!-- Medium screen layout for Row 2 -->
+            <div class="col-md-4 offset-md-2" style="border: 2px dotted rgb(38, 38, 43); background-color: tomato;">
+                <!-- Column 1 -->
+            </div>
+            <div class="col-md-4" style="border: 2px dotted rgb(38, 38, 43); background-color: turquoise;">
+                <!-- Column 2 -->
+            </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="row">
+            <!-- Medium screen layout for Row 3 -->
+            <div class="col-md-4" style="border: 2px dotted rgb(38, 38, 43); background-color: violet; text-align: center;">
+                <!-- Column 1 -->
+            </div>
+            <div class="col-md-4" style="border: 2px dotted rgb(38, 38, 43); background-color: yellowgreen; text-align: center;">
+                <!-- Column 2 -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- Small screen layout for Row 3 -->
+            <div class="col-sm-6" style="border: 2px dotted rgb(38, 38, 43); background-color: violet; text-align: center;">
+                <!-- Column 1 -->
+            </div>
+            <div class="col-sm-6" style="border: 2px dotted rgb(38, 38, 43); background-color: yellowgreen; text-align: center;">
+                <!-- Column 2 -->
+            </div>
+        </div>
+    </div>
 
+    <!-- Bootstrap JS and Popper.js scripts (required for Bootstrap functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
